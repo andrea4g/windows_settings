@@ -1,4 +1,4 @@
-# settings
+# windows_settings
 Folder to save the settings of the pc (Vim & PowerShell)
 
 * vim/.vim goes into ~ and vim/.vimrc has to be in the same path

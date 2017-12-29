@@ -26,6 +26,9 @@ set autoindent
 set visualbell
 set backspace=indent,eol,start
 set colorcolumn=80
+set fileformat=unix
+
+set guifont=Consolas:h12:cANSI
 
 " f5 to toggle solarized
 call togglebg#map("")
