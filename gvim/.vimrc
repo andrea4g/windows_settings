@@ -33,4 +33,11 @@ function! ToggleRelativeNumber()
 endfunction
 map <F4> :call ToggleRelativeNumber() <CR>
 
+" vim-latex settings
+let g:Tex_FoldedSections=""
+let g:Tex_FoldedEnvironments=""
+let g:Tex_FoldedMisc=""
+let g:Imap_UsePlaceHolders = 0
+let g:Tex_FormatDependency_pdf = 'ps,pdf'
+let g:Tex_DefaultTargetFormat='pdf'
 let g:Tex_CompileRule_pdf='xelatex -interaction=nonstopmode $*'

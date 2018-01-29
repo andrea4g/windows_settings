@@ -48,12 +48,14 @@ if has('win32') || has('win64') "If gVim under Windows"
     let g:UltiSnipsSnippetDirectories=["$HOME/vifiles/UltiSnips"]
 endif
 
+" vim-latex settings
+let g:Tex_FoldedSections=""
+let g:Tex_FoldedEnvironments=""
+let g:Tex_FoldedMisc=""
+let g:Imap_UsePlaceHolders = 0
 let g:Tex_FormatDependency_pdf = 'ps,pdf'
-
 let g:Tex_DefaultTargetFormat='pdf'
-
 let g:Tex_CompileRule_pdf='xelatex -interaction=nonstopmode $*'
-
 let g:Tex_ViewRule_pdf = 'open -a Preview'
 
 "remap caps_lock with esc (works only on linux with xorg-xmodmap package
