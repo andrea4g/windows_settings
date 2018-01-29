@@ -7,7 +7,6 @@ set columns=100
 
 syntax enable
 set background=dark
-
 colorscheme solarized
 
 set tabstop=2       " The width of a TAB is set to 4.
@@ -49,7 +48,7 @@ if has('win32') || has('win64') "If gVim under Windows"
     let g:UltiSnipsSnippetDirectories=["$HOME/vifiles/UltiSnips"]
 endif
 
-let g:Tex_FormatDependency_pdf = 'dvi,ps,pdf'
+let g:Tex_FormatDependency_pdf = 'ps,pdf'
 
 let g:Tex_DefaultTargetFormat='pdf'
 
